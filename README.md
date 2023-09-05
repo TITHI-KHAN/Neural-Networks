@@ -80,6 +80,7 @@ Specifically, the gradients of the loss with respect to the output of a layer ar
 
 # Convolutional Neural Network (CNN)
 
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/5caf74f3-8372-4e6d-8a8e-c3e424757078)
 
 
 
