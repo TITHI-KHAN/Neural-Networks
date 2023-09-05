@@ -64,7 +64,7 @@ Specifically, the gradients of the loss with respect to the output of a layer ar
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/d1ff176b-bf91-487a-8957-8b19dcdb97c9)
 
-**Problem:**
+# Problem
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/5bad9b8f-0c45-48b8-8a85-7b8ebd50e66d)
 
@@ -116,6 +116,8 @@ There are three types of layers in a convolutional neural network: Convolutional
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/2df85750-6117-4bed-86c4-b057f483ca58)
 
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/c0bb3385-19e6-4fd0-92ab-4ce494e3968b)
+
 **Convolution Layer — The Kernel**
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/56b5db08-599f-472c-a7e6-909b1754b89b)
@@ -154,13 +156,13 @@ There are three types of layers in a convolutional neural network: Convolutional
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/f78564a4-4932-401f-90ed-37e70fc5ec29)
 
-**Activation function: Rectified Linear Units (ReLU)**
+# Activation function: Rectified Linear Units (ReLU)
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/a6d45cc3-806f-4932-9e8d-6fa96a6a36a2)
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/197abbab-5dea-4e13-9ce2-9e640673e33b)
 
-**Pooling Layer**
+# Pooling Layer
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/9ed6dc34-8342-4308-a251-798e9edd1c68)
 
@@ -180,6 +182,59 @@ There are three types of layers in a convolutional neural network: Convolutional
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/2afa409c-125f-4a28-b046-c757ebccaf99)
 
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/6657b18a-96d1-48a2-b7bc-a3ac8024d601)
 
+# Padding
 
+**What is padding in CNN?**
+
+Padding is a term relevant to convolutional neural networks as it refers to the amount of pixels added to an image when it is being processed by the kernel of a CNN. For example, if the padding in a CNN is set
+to zero, then every pixel value that is added will be of value zero.
+
+**Why does CNN use padding?**
+
+Padding is simply a process of adding layers of zeros to our input images so as to avoid the problems mentioned above. This prevents shrinking as, if p = number of layers of zeros added to the border of
+the image, then our (n x n) image becomes (n + 2p) x (n + 2p) image after padding.
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/40acad3a-00b1-42a6-b7ee-460d3e87bec7)
+
+**Types of Padding:**
+
+▪ **Valid Padding** : It implies no padding at all. The input image is left in its valid/unaltered shape. So, 
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/b56d5b18-14e7-4dc7-b325-f05e0c87e593)
+
+▪ **Same Padding** : In this case, we add ‘p’ padding layers such that the output image has the same dimensions as the input image. So,
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/18ecc9eb-aaab-4623-b972-b34a2d43bd08)
+
+# Data Augmentation in Deep Learning
+
+**How do I get more data, if I don’t have “more data”?**
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/b9a1fb85-be82-4711-8588-fd618a39957f)
+
+1. **Zoom in/out**
+   
+2. **Rotation**
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/4c3636da-4b1d-4dc1-a134-d5e8a91800ee)
+
+3. **Flipping**
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/39d6e80b-983c-426a-b452-9a43c572c084)
+
+4. **Adding Noise**
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/1ab9d2b7-9f70-4b08-a301-1c1a6d7df576)
+
+5. **Lighting Condition**
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/8817dab2-13f6-4e3e-9e34-3a944c6d399e)
+
+6. **Perspective transform**
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/f76bdb22-8f4e-46a0-a1a8-21486286d9b3)
+
+**Watch**: https://www.youtube.com/watch?v=p8e7dGY-Oko
 
