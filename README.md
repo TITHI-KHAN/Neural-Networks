@@ -122,12 +122,63 @@ There are three types of layers in a convolutional neural network: Convolutional
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/4ce84152-5a00-476a-8aef-4ae682a9c6db)
 
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/0ccbdd14-197a-4c9c-a95a-8876129a5983)
 
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/5c363009-b572-409a-83e5-afb034f45dfa)
 
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/bfce1d8f-ce46-4d2e-93a7-deb60c5a5b0b)
 
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/6606bfde-cb1c-442b-b0a0-e486a49d74bc)
 
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/fa3bd0f7-6ae0-4eb6-b517-13e5cccfb78a)
 
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/2ef8ad48-1f6b-4197-b669-4789e940c852)
 
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/f4953e1d-76fa-42d9-b41a-dcb90a9e2319)
+
+**Convolution Layer — The Kernel**
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/110c7253-0c7d-4b65-b035-7a2f1234b3d9)
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/79229e8e-a780-4fcc-a569-e7b3ba591b84)
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/f63df293-6fed-473a-9e9b-9c1295300ebc)
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/c43e47e3-4b22-433b-95c3-0dc5e71b5e03)
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/a233c913-4523-49d4-a309-05300bbd324e)
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/68173b21-f9a3-42ae-b866-23847876cbce)
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/df7aa467-7fd1-44ef-8b81-0e46ef4208c1)
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/f78564a4-4932-401f-90ed-37e70fc5ec29)
+
+**Activation function: Rectified Linear Units (ReLU)**
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/a6d45cc3-806f-4932-9e8d-6fa96a6a36a2)
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/197abbab-5dea-4e13-9ce2-9e640673e33b)
+
+**Pooling Layer**
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/9ed6dc34-8342-4308-a251-798e9edd1c68)
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/904dd5f1-011b-454e-963e-7b0b6fdf900a)
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/c8726f73-b548-457e-bc90-be2dedbdbecf)
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/fa197342-4a7e-459f-be36-b0b9204e956b)
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/4ee972f4-30b2-413a-9457-c8bbfc8cb4ce)
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/ac818f5d-1cfc-4910-894f-e8c9ad7094f1)
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/ab228577-3303-4972-a556-1a388d6f7f4d)
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/2d469465-b7f2-4c37-8316-f08036bd6877)
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/2afa409c-125f-4a28-b046-c757ebccaf99)
 
 
 
