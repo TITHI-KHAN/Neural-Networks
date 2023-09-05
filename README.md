@@ -82,6 +82,48 @@ Specifically, the gradients of the loss with respect to the output of a layer ar
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/9936307b-0b0d-4b10-b2c8-045fce4823a1)
 
+▪ Images recognition
+
+▪ Images classifications
+
+▪ Objects detections
+
+▪ Decoding facial recognition
+
+▪ Understanding climate
+
+▪ Driverless cars
+
+▪ Human genome mapping
+
+▪ Predicting earthquakes
+
+▪ Natural disasters
+
+**How many layers does CNN have?**
+
+There are three types of layers in a convolutional neural network: Convolutional layer, Pooling layer, and Fully connected layer. Each of these layers has different parameters that can be optimized and performs a different task on the input data.
+
+**Images: Grayscale**
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/178c4ea2-a603-444a-b15d-2940b3031f69)
+
+**Images: RGB**
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/51cdee5a-f3f6-4b13-97d1-fec2c325abc8)
+
+**Convolutional Neural Network (CNN):**
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/2df85750-6117-4bed-86c4-b057f483ca58)
+
+**Convolution Layer — The Kernel**
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/56b5db08-599f-472c-a7e6-909b1754b89b)
+
+![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/4ce84152-5a00-476a-8aef-4ae682a9c6db)
+
+
+
 
 
 
