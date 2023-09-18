@@ -10,6 +10,12 @@
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/e49ee723-fb72-4fa6-8db3-65610e59f698)
 
+CS -> Cognitive System (A part of Linguistics). 
+
+DL + Linguistics + CS -> NLP.
+
+Ex: BARD, ChatGPT.
+
 NLP-powered machine translation helps us to access accurate and reliable translations of foreign texts. Natural language processing is also helping to optimize the process of sentiment analysis. Natural language processing-powered algorithms can understand the meaning behind a text. Voice assistant, Alexa using Natural Language Processing provides a variety of services using artificial intelligence systems equipped through the user's voice commands. NLP Top projects-
 
 ▪ Email filters
@@ -26,7 +32,29 @@ NLP-powered machine translation helps us to access accurate and reliable transla
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/6d92cb8e-98c0-4954-b961-19e9ac0b6279)
 
+In the architecture of a Neuron, Dendrite -> Input and Soma -> Cell Body. Here, all the calculation takes place in Soma and the result will go through the Axon. This information will be received by another neuron (in the axon terminals). For the first neuron, it will be the output but for the second neuron, it will be the input. Like this way, a network is created from lots of neurons.
+
+**ANN**: 
+
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/d8900493-c68f-4cdf-b002-371be7d41d15)
+
+In Forward Propagation, input * weight = result and the result gets forwarded.
+
+Here, x1 is a different feature. For this, x1 has a different weight. The same goes for x2, x3, and xn as well.
+
+Sum =  where w0 -> value of bias.
+
+w1 -> initially assigned value (random weight).
+
+While doing Back Propagation, the value gets updated. 
+
+In Forward Propagation, it goes from Sum to Activation Function. Activation Function -> result will go to which class? yes or no? (Result = x1 w1 + x2 w2 + ..... xn wn + w0)
+
+There are lots of activation function : sigmoid, soft max, Tanh, ReLU, Leaky ReLU, PReLU, ELU, Swish.
+
+For **Binary Classification**, the best activation function is **Sigmoid**.
+
+
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/ffbf1fa4-9eb1-41d0-ad1f-2a18b71ed78a)
 
