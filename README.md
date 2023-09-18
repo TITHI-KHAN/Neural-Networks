@@ -54,7 +54,9 @@ There are lots of activation function : sigmoid, soft max, Tanh, ReLU, Leaky ReL
 
 For **Binary Classification**, the best activation function is **Sigmoid**.
 
+1/1+e^(-x) [e has a value]
 
+Suppose, e=2.74 and x=0.23 (x1 w1 + x2 w2 + ..... xn wn + w0=0.23), then 1/1+e^(-x) = 0.93 
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/ffbf1fa4-9eb1-41d0-ad1f-2a18b71ed78a)
 
