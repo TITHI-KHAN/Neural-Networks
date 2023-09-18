@@ -181,9 +181,22 @@ We are using Sigmoid Activation Function.
 
 ![image](https://github.com/TITHI-KHAN/Neural-Networks/assets/65033964/6418a9f3-1ddd-4b8e-b2d9-7c79e3ca1bcf)
 
+Neural Network -> Artificial Neural Netowrk, Convolutional Neural Network, Bidirectional Neural Network, Recurrent Neural Network.
+
 # Convolutional Neural Network (CNN)
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/9936307b-0b0d-4b10-b2c8-045fce4823a1)
+
+CNN works based on the value of convolution layer. 
+
+ReLU -> Activation Function. 
+
+To detect image, it generates different types of filters and using the values of these filters, convolution takes place. 
+
+
+
+
+
 
 ▪ Images recognition
 
