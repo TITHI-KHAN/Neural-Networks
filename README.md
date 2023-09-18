@@ -118,7 +118,19 @@ After 10 epochs, the neural network will have updated its weights 10 times on th
 
 The batch size is a hyperparameter that specifies the number of training examples used in one iteration of the optimization algorithm. The training examples are divided into small groups or batches, and the optimization algorithm updates. The batch size is a number of samples processed before the model is updated.
 
-epoch 
+epoch -> Iteration.
+
+If I run one epoch, then how many times the weight will be updated?
+
+This depends on the batch size. 
+
+**Ex:** There are 1000 samples in the full dataset. Batch size = 100. The weight of the neural network will be updated 10 times in 1 epoch because 1000/100=10.
+
+If I run 10 epochs, then 10*100=1000 times the weight value will be updated.
+
+The number of the batch size depends on the data.
+
+In a neural network, there are lots of parameters. 
 
 The chain rule is a fundamental rule of calculus that is used to calculate the derivative of a composition of functions. In the context of neural networks, the chain rule is a key mathematical tool for calculating gradients of the loss function with respect to the weights of the network during the backpropagation algorithm.
 
@@ -129,6 +141,8 @@ In the context of neural networks, the chain rule is used to calculate the gradi
 Specifically, the gradients of the loss with respect to the output of a layer are multiplied by the gradients of the layer's activation function and the weights connecting the layer to the previous layer, to obtain the gradients of the loss with respect to the inputs of the layer. These gradients are then used to update the weights of the layer using an optimization algorithm, such as stochastic gradient descent.
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/adc72d75-63cd-4139-86e8-ab8c25b96138)
+
+Input Layer -> 2 features (x1, x2), 1 Neuron (P1). Hidden Layer has 2 Neurons (P2, P3) but here, we have 1 hidden layer.
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/d1ff176b-bf91-487a-8957-8b19dcdb97c9)
 
