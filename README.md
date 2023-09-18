@@ -142,9 +142,19 @@ Specifically, the gradients of the loss with respect to the output of a layer ar
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/adc72d75-63cd-4139-86e8-ab8c25b96138)
 
-Input Layer -> 2 features (x1, x2), 1 Neuron (P1). Hidden Layer has 2 Neurons (P2, P3) but here, we have 1 hidden layer.
+Input Layer -> 2 features (x1, x2), 1 Neuron (P1). Hidden Layer has 2 Neurons (P2, P3) but here, we have 1 hidden layer. 
+
+zP2, zP3 -> Output
+
+![image](https://github.com/TITHI-KHAN/Neural-Networks/assets/65033964/d2dbde66-4c4a-4d30-83e9-761be07cfa10)
+
+weight from x1 to P1 is 1(w P1 x1).
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/d1ff176b-bf91-487a-8957-8b19dcdb97c9)
+
+We are using Sigmoid Activation Function.
+
+
 
 # Problem
 
