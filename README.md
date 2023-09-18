@@ -94,7 +94,19 @@ f(3.5) -> activation function of 3.5 (1/1+e^(-3.5)). In Forward Propagation, we 
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/716166ce-9e65-496b-8a38-239d085ffb9e)
 
-Neural Network can be complex as well. 
+Neural Network can be complex as well. Here, we can also have lots of neurons and hidden layers, class, and multi-class. 
+
+The input has n features. It also has weights. x-> value of feature input. There will be activation function. It will work like chain. The number of hidden layer we will have, value will be passed down to those and forwarded to the next until we get into the output layer.
+
+There can be multiple hidden layers. But, only one input layer. One output layer. Normally, we have two hidden layers. However, we can customize that as well.
+
+If there are hidden layer, we can send the value through the activation function to the hidden layer. Then, it will go to the output layer.
+
+In Back Propagation, we will use chain rule. We will update the weight and bias. Then, we will calculate again. If needed, we will update and calculate. Through each iteration, we will update the value of weight. 
+
+The more complex the network is, the more complex the calculation. It will also increase the computational cost. 
+
+For the input layer, individual calculation. For hidden layer, individual calculation. For output layer, individual calculation.
 
 Specifying the epochs=10 means that the neural network will train on the entire training dataset for 10 iterations. During each epoch, the neural network will update its weights multiple times using backpropagation and stochastic gradient descent (or other optimization algorithms) until it has seen all the training examples. The number of weight updates during an epoch depends on the batch_size, which is another hyperparameter that determines how many samples are used to update the weights in each iteration.
 
@@ -105,6 +117,8 @@ After 10 epochs, the neural network will have updated its weights 10 times on th
 **What is the batch size in neural network training?** 
 
 The batch size is a hyperparameter that specifies the number of training examples used in one iteration of the optimization algorithm. The training examples are divided into small groups or batches, and the optimization algorithm updates. The batch size is a number of samples processed before the model is updated.
+
+epoch 
 
 The chain rule is a fundamental rule of calculus that is used to calculate the derivative of a composition of functions. In the context of neural networks, the chain rule is a key mathematical tool for calculating gradients of the loss function with respect to the weights of the network during the backpropagation algorithm.
 
