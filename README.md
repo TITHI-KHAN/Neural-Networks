@@ -56,13 +56,21 @@ For **Binary Classification**, the best activation function is **Sigmoid**.
 
 1/1+e^(-x) [e has a value]
 
-Suppose, e=2.74 and x=0.23 (x1 w1 + x2 w2 + ..... xn wn + w0=0.23), then 1/1+e^(-x) = 0.93 
+Suppose, e=2.74 and x=0.23 (x1 w1 + x2 w2 + ..... xn wn + w0=0.23), then 1/1+e^(-x) = 0.93. This 0.93 is close to 1, so the result is Yes. If it was below 0.5, then result would be No.
+
+The result can also be misclassified.This depends on weight and the value of weight gets randomly assigned. So, in this case, if it gets misclassified, do Back Propagation.
+
+In Back Propagation, chain rule works. So, value of weight gets updated repetitively and check whether the actual result & predicted result are correct or not. If found incorrect, then update again. Keep updating until you get optimal result.  
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/ffbf1fa4-9eb1-41d0-ad1f-2a18b71ed78a)
+
+The activation function of sigmoid is 1/1+e^(-z) where z-> weight and if the result is more than 0.5, then 1 and if less than 0.5, then 0. z = weight * feature + bias
 
 First, we must talk about neurons, the basic unit of a neural network. A neuron takes inputs, does some math with them and produces one output. Here’s what a 2‐input neuron looks like:
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/6aaff771-7c71-4015-a2e2-96c16e505c1f)
+
+We will not always get a simple network like this. Here, we only used 2 neurons to form a network.
 
 In neural network training, the weights are typically initialized randomly and then adjusted during the training process through backpropagation. Backpropagation is an iterative algorithm that updates the weights in the network based on the error between the predicted output and the actual output. By minimizing this error, the network can learn to make more accurate predictions.
 
@@ -70,7 +78,23 @@ In neural network training, the weights are typically initialized randomly and t
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/30dbcf8b-dd0c-41ca-a9c1-8f42948fe613)
 
+b -> bias
+
+2-input -> [0,1] -> value of input are 0,1. Not class. If there are 2 x, then there will also be 2 different w.
+
+0 x1
+
+1 x2
+
+z = 3.5
+
+(1/1+e^(-3.5)) gives approximately 0.97.
+
+f(3.5) -> activation function of 3.5 (1/1+e^(-3.5)). In Forward Propagation, we will get 1.
+
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/716166ce-9e65-496b-8a38-239d085ffb9e)
+
+Neural Network can be complex as well. 
 
 Specifying the epochs=10 means that the neural network will train on the entire training dataset for 10 iterations. During each epoch, the neural network will update its weights multiple times using backpropagation and stochastic gradient descent (or other optimization algorithms) until it has seen all the training examples. The number of weight updates during an epoch depends on the batch_size, which is another hyperparameter that determines how many samples are used to update the weights in each iteration.
 
