@@ -154,6 +154,7 @@ weight from x1 to P1 is 1(w P1 x1).
 
 We are using Sigmoid Activation Function.
 
+![image](https://github.com/TITHI-KHAN/Neural-Networks/assets/65033964/a47c9524-93f6-420e-9587-5fd088936cd0)
 
 
 # Problem
@@ -168,7 +169,17 @@ We are using Sigmoid Activation Function.
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/6afe1ce3-dd1c-4288-a43a-8440fc2508c6)
 
+![image](https://github.com/TITHI-KHAN/Neural-Networks/assets/65033964/9c8d3c89-7cc2-434c-8956-dbc9c3ea7246)
+
+![image](https://github.com/TITHI-KHAN/Neural-Networks/assets/65033964/85d1cdda-950f-4f99-8d24-b329e74c84c5)
+
+![image](https://github.com/TITHI-KHAN/Neural-Networks/assets/65033964/d078318b-b34b-440d-8553-04194b908507)
+
+![image](https://github.com/TITHI-KHAN/Neural-Networks/assets/65033964/b7e0185a-28e6-4cf1-83e9-9ad2faa21265)
+
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/6a932f30-bcfe-4f7e-bed1-3c7eb392bb9b)
+
+![image](https://github.com/TITHI-KHAN/Neural-Networks/assets/65033964/6418a9f3-1ddd-4b8e-b2d9-7c79e3ca1bcf)
 
 # Convolutional Neural Network (CNN)
 
