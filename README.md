@@ -247,7 +247,7 @@ Suppose, image is 5*5. Filter value is not given but size is given.
 
 Ex: 3*3 or 5*5. Here, 1 filter. But, filter can be many as well in other cases. 
 
-
+          
 
 **Convolution Layer — The Kernel**
 
