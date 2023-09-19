@@ -191,12 +191,7 @@ CNN works based on the value of convolution layer.
 
 ReLU -> Activation Function. 
 
-To detect image, it generates different types of filters and using the values of these filters, convolution takes place. 
-
-
-
-
-
+To detect image, it generates different types of filters and using the values of these filters, convolution takes place. After convolution, Convolution + ReLU are applied. After applying, the result is sent to the Pooling Layer. Then, from the Pooling Layer, it goes to the Convolution + ReLU. Then, again to Pooling Layer. It keeps working like this. Finally, we get the output from the Dense Neural Netowork (Fully Connected Network). This is the output layer.
 
 ▪ Images recognition
 
@@ -228,11 +223,31 @@ There are three types of layers in a convolutional neural network: Convolutional
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/51cdee5a-f3f6-4b13-97d1-fec2c325abc8)
 
+In RGB, there are 3 channels (Red, Green, Blue). 
+
 **Convolutional Neural Network (CNN):**
+
+4*4*3 RGB Image ->
 
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/2df85750-6117-4bed-86c4-b057f483ca58)
 
+0-255 -> Range of Pixel Value. O -> Black and 255 -> White. 
+
+![image](https://github.com/TITHI-KHAN/Neural-Networks/assets/65033964/23e35ad3-9089-4354-9375-e20ef8f967d7)
+
 ![image](https://github.com/TITHI-KHAN/Neural-Network/assets/65033964/c0bb3385-19e6-4fd0-92ab-4ce494e3968b)
+
+**ANN vs CNN:**
+
+In ANN, there are 3 layers: Input, Output, and Hidden Layer.
+
+In CNN, there are 4 elements: Input, Convolutional Layer, Pooling Layer, and Fully Connected Layer. 
+
+Suppose, image is 5*5. Filter value is not given but size is given. 
+
+Ex: 3*3 or 5*5. Here, 1 filter. But, filter can be many as well in other cases. 
+
+
 
 **Convolution Layer — The Kernel**
 
