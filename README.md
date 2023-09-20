@@ -247,7 +247,15 @@ Suppose, image is 5*5. Filter value is not given but size is given.
 
 Ex: 3*3 or 5*5. Here, 1 filter. But, filter can be many as well in other cases. 
 
-          
+ ![image](https://github.com/TITHI-KHAN/Neural-Networks/assets/65033964/9997a56b-2d45-4fe0-8394-674c57ddef19)
+
+![image](https://github.com/TITHI-KHAN/Neural-Networks/assets/65033964/800fe396-9490-4f3b-a698-47763995c786)
+
+![image](https://github.com/TITHI-KHAN/Neural-Networks/assets/65033964/2fe82606-50bf-4b77-8567-5c5d40b5b68c)
+
+![image](https://github.com/TITHI-KHAN/Neural-Networks/assets/65033964/ff41e0d4-a556-4119-9ac5-56fe06f55b47)
+
+![image](https://github.com/TITHI-KHAN/Neural-Networks/assets/65033964/b5d6be67-f9d0-4bc2-9ad8-6bf70ee1c313)
 
 **Convolution Layer — The Kernel**
 
