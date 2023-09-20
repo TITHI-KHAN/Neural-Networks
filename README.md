@@ -269,7 +269,7 @@ Here, average pooling or max pooling takes place.
 
 ![image](https://github.com/TITHI-KHAN/Neural-Networks/assets/65033964/419f4150-9528-4d8a-9678-576a9ec89add)
 
-From ReLU's output, we got a feature map. Based on that, we will get the feature map of the pooling layer. 
+* From ReLU's output, we got a feature map. Based on that, we will get the feature map of the pooling layer. 
 
 After pooling, matrix has become small so that machine can read information easily. That's why one extra layer is added. 
 
@@ -281,7 +281,11 @@ If we want **strong features**, then use **Max Pooling**. If we want **average f
 
 If we don't want to do padding, then use valid. This means no padding. 
 
-In the Final Layer, classification takes place. From this, we will get a result; this result will go to the 
+In the Final Layer, classification takes place. From this, we will get a result; considering this, we will take **softmax (for multiclass)** or **sigmoid (for binary class)** in the activation function output layer and the probability value to predict.
+
+* For doing CNN, we need lots of data. But, if there are not enough data, then we can do **Data Augmentation**. Data augmentation means increasing the data like making 9 images from 1 image. Apart from that, zoom in, zoom out, rotation, flipping, adding noise, increasing or decreasing light condition, and doing Perspective Transformation can be done to increase data.
+
+**Blog** (Building Powerful Image Classification Models Using Very Little Data) : https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
 
 **Convolution Layer — The Kernel**
 
