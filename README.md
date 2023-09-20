@@ -247,7 +247,7 @@ Suppose, image is 5*5. Filter value is not given but size is given.
 
 Ex: 3*3 or 5*5. Here, 1 filter. But, filter can be many as well in other cases. 
 
- ![image](https://github.com/TITHI-KHAN/Neural-Networks/assets/65033964/9997a56b-2d45-4fe0-8394-674c57ddef19)
+![image](https://github.com/TITHI-KHAN/Neural-Networks/assets/65033964/9997a56b-2d45-4fe0-8394-674c57ddef19)
 
 ![image](https://github.com/TITHI-KHAN/Neural-Networks/assets/65033964/800fe396-9490-4f3b-a698-47763995c786)
 
@@ -256,6 +256,32 @@ Ex: 3*3 or 5*5. Here, 1 filter. But, filter can be many as well in other cases.
 ![image](https://github.com/TITHI-KHAN/Neural-Networks/assets/65033964/ff41e0d4-a556-4119-9ac5-56fe06f55b47)
 
 ![image](https://github.com/TITHI-KHAN/Neural-Networks/assets/65033964/b5d6be67-f9d0-4bc2-9ad8-6bf70ee1c313)
+
+**ReLU:**
+
+It converts the negative value into zero. If there is any negative value in the feature map, then it converts the value into 0 and if the value is positive, then it stays positive.
+
+In filter 1, this is 4*4 image. So, ReLU replaces -8, -6, -4 with 0. It removes negative value and replaces with 0.
+
+**Pooling Layer:**
+
+Here, average pooling or max pooling takes place.
+
+![image](https://github.com/TITHI-KHAN/Neural-Networks/assets/65033964/419f4150-9528-4d8a-9678-576a9ec89add)
+
+From ReLU's output, we got a feature map. Based on that, we will get the feature map of the pooling layer. 
+
+After pooling, matrix has become small so that machine can read information easily. That's why one extra layer is added. 
+
+Suppose, after pooling, the main information is in the 4*4 image. For easy readability and calculation of the machine, we will add one value around it; the value is normally 0 (it has no meaning and cannot affect the image normally).
+
+In CNN, there are 30-35 models such as VGG16, etc. Usually, max pooling is mostly used to gain strong information. Max pooling is more sensitive than average pooling. 
+
+If we want **strong features**, then use **Max Pooling**. If we want **average features**, then use **Average Pooling**. Average Pooling is less sensitive than Max Pooling. 
+
+If we don't want to do padding, then use valid. This means no padding. 
+
+In the Final Layer, classification takes place. From this, we will get a result; this result will go to the 
 
 **Convolution Layer — The Kernel**
 
